@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><marytts-install xmlns="http://mary.dfki.de/installer">
+    <voice gender="male" locale="en-US" name="cmu-rms" type="unit selection" version="5.2">
+        <description>A male US English unit selection voice, built from recordings provided by Carnegie Mellon University</description>
+        <license href="http://mary.dfki.de/download/arctic-license.html"/>
+        <package filename="voice-cmu-rms-5.2.zip" md5sum="dc42028b3ddf756969d8cc7404e3956e" size="121504555">
+            <location folder="true" href="http://mary.dfki.de/download/5.2/"/>
+            <location folder="true" href="https://github.com/marytts/voice-cmu-rms/releases/download/v5.2/"/>
+        </package>
+        <files>lib/, lib/voices/, lib/voices/cmu-rms/, lib/voices/cmu-rms/halfphoneFeatures_ac.mry, lib/voices/cmu-rms/halfphoneUnits.mry, lib/voices/cmu-rms/joinCostFeatures.mry, lib/voices/cmu-rms/timeline_basenames.mry, lib/voices/cmu-rms/timeline_waveforms.mry, lib/voice-cmu-rms-5.2.jar</files>
+        <depends language="en-US" version="5.2"/>
+    </voice>
+</marytts-install>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><marytts-install xmlns="http://mary.dfki.de/installer">
+    <voice gender="male" locale="en-GB" name="dfki-spike" type="unit selection" version="5.2">
+        <description>A male British English expressive unit selection voice: Aggressive Spike</description>
+        <license href="http://mary.dfki.de/download/by-nd-3.0.html"/>
+        <package filename="voice-dfki-spike-5.2.zip" md5sum="644753b9d633cbcb215491cecf8c4be2" size="163980552">
+            <location folder="true" href="http://mary.dfki.de/download/5.2/"/>
+            <location folder="true" href="https://github.com/marytts/voice-dfki-spike/releases/download/v5.2/"/>
+        </package>
+        <depends language="en-GB" version="5.2"/>
+    </voice>
+</marytts-install>
